@@ -1,24 +1,24 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: rgb(56, 52, 56);
     overflow: hidden;
 }
 
 nav {
-    margin-top: -15px;
+    margin: top -15px ;
     width: 100%;
-    height: 60px;
-    background-color: white;
+    height: 50px;
+    background-color: rgb(200, 247, 248);
     padding: 20px 30px;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 nav p {
-    float: left;
+    float:center;
 }
 
 nav div {
@@ -37,10 +37,10 @@ nav div {
 .container .first {
     width: 50%;
     height: 100%;
-    background-image: url('https://www.soldevelo.com/blog/wp-content/uploads/What-makes-a-great-programmer-banner-1536x1024-1.jpeg');
+    background-image: url('https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
+    float: right;
 }
 
 .container .second {
@@ -52,7 +52,7 @@ nav div {
 
 .container .second p {
     margin: 10px;
-    color: grey;
+    color: rgb(7, 7, 7);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -60,8 +60,8 @@ nav div {
 
 footer {
     width: 100%;
-    height: 25vh;
-    background-color: black;
+    height: 20vh;
+    background-color: rgb(126, 121, 121);
     color: white;
     padding: 20px;
     margin-top: 20px;
@@ -71,21 +71,22 @@ footer {
 
 .icon {
     font-size: 30px;
-    color: red
+    color: rgb(49, 6, 6)
 }
 
 button {
-    width: 200px;
+    text-align: right;
+    width: 50px;
     height: 50px;
-    color: white;
-    background-color: teal;
+    color: rgb(46, 30, 1);
+    background-color: rgba(233, 237, 241, 0.959);
     border: none;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 .parent{
-    background-color: tomato;
+    background-color: rgb(60, 119, 74);
     height: 300px;
     width: 100%;
     display: flex;

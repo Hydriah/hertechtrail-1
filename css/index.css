@@ -3,41 +3,46 @@ html, body {
     padding: 0;
 }
 
-.parent {
+.parent { 
     width: 100%;
     height: 100vh;
-    background-color: grey;
+    background-color: rgb(196, 116, 24);
     /* padding: 100px; */
     overflow: hidden;
 }
 
 .second-parent {
-    width: 50%;
-    height: 50%;
-    background-color: lightgrey;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(114, 6, 21);
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
     margin-top: 20px;
-              
+            
              /* top   right  bottom    left */
     /* padding: 60px   10px   40px     50px; */
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 10px;
     padding-top: 60px;
     padding-bottom: 40px;
-
+    
     border-width: 5px;
-    border-color: pink;
-    border-style: solid;
+    border-color: rgb(184, 160, 164);
+    border-style: groove;
+    align-self: right;
+
 
     /* border-radius: 10px; */
     border-top-left-radius: 30px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 2px;
+   position: absolute ;
 }
 
 .second-parent p {
-    color: white
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
